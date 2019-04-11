@@ -14,3 +14,30 @@ html {
 
   font-family: 'Gravitas One', cursive;
   font-family: 'Playfair Display', serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  max-height: 24em;
+  overflow: hidden;
+}
+
+.banner-content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.title {
+  font-family: 'Gravitas One', cursive;
+}
