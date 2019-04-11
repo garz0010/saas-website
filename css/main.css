@@ -1,19 +1,6 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
-html {
-  box-sizing: border-box;
-
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-
+body {
   font-family: 'Gravitas One', cursive;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', serif;}
 }
 
 *, *::before, *::after {
@@ -24,6 +11,40 @@ html {
   display: block;
   width: 100%;
 }
+
+.logo {
+  background-color: #47636c;
+}
+
+.background {
+  background-color: #6495a8;
+}
+
+h1 {
+  color: #afd5c9;
+}
+
+ul {
+  text-decoration: none;
+  text-align: left;
+  color: #8db493;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  text-align: left;
+}
+
+li a:hover {
+  background-color: #afd5c9;
+  color: white;
+}
+
 
 .banner {
   position: relative;
@@ -40,8 +61,15 @@ html {
 
 .title {
   font-family: 'Gravitas One', cursive;
+  color: white;
+}
+
+.title-2 {
+  font-family: 'Gravitas One', cursive;
+  color: white;
 }
 
 .sub {
   font-family: 'Gravitas One', cursive;
+  color: white;
 }
