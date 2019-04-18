@@ -42,7 +42,7 @@ li a {
 
 li a:hover {
   background-color: #afd5c9;
-  color: white;
+  color: #47636c;
 }
 
 
@@ -61,17 +61,17 @@ li a:hover {
 
 .title {
   font-family: 'Gravitas One', cursive;
-  color: white;
+  color: #ebf7ff;
 }
 
 .title-2 {
   font-family: 'Gravitas One', cursive;
-  color: white;
+  color: #ebf7ff;
 }
 
 .sub {
   font-family: 'Gravitas One', cursive;
-  color: white;
+  color: #ebf7ff;
 }
 
 .list {
@@ -83,9 +83,23 @@ li a:hover {
 }
 
 .text-colour {
-  color: white;
+  color: #212f39;
 }
 
 .black {
   color: black;
+}
+
+
+button,
+.btn-2:hover{
+  background-color: #afd5c9;
+  color: white;
+}
+
+
+.btn-2 {
+  background-color: #8db493;
+  border-radius: 8px;
+  border: none;
 }
