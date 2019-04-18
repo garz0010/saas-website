@@ -45,6 +45,11 @@ li a:hover {
   color: #47636c;
 }
 
+nav a:hover {
+  background-color: #afd5c9;
+  color: #47636c;
+}
+
 
 .banner {
   position: relative;
